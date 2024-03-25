@@ -105,9 +105,11 @@ const navMenu = document.getElementById('nav-menu'),
 // MENU SHOW
 navToggle.addEventListener('click', () => {
   navMenu.classList.add('show-menu')
+  document.body.style.overflow = 'hidden';
 });
 
 // MENU CLOSE
 navClose.addEventListener('click', () => {
   navMenu.classList.remove('show-menu')
+  document.body.style.overflow = 'auto';
 });
