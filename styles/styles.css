@@ -1624,6 +1624,10 @@ textarea.input{
         border-top: 1px solid var(--white-color);
     }
 
+    .contacto{
+        min-height: 140vh;
+    }
+
 }
 
 /* ---------------- Pantallas Moviles Chicos ------------------ */
