@@ -1562,6 +1562,11 @@ textarea.input{
         top: 0;
     }
 
+    .footer-box:nth-child(3) p,
+    .info p{
+        text-decoration: none;
+    }
+
 }
 
 /* ----------------- Pantallas Moviles Grandes ------------------- */
