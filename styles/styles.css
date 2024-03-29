@@ -1077,7 +1077,7 @@ textarea.input{
 }
 
 .icon{
-    font-size: clamp(1rem, 0.898rem + 0.501vw, 1.7rem);
+    font-size: clamp(1.1rem, 0.898rem + 0.501vw, 1.7rem);
     margin-right: .7rem;
     box-shadow: none;
 }
@@ -1696,7 +1696,7 @@ textarea.input{
     }
 
     .home-bot-shape{
-        bottom: 10vh;
+        bottom: -12vh;
     }
 
     .servicios-container{
@@ -1713,6 +1713,10 @@ textarea.input{
 
     .servicios{
         padding: 20px 8%;
+    }
+
+    .contacto{
+        padding: 20px 3%;
     }
 
 }
