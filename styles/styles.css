@@ -1695,9 +1695,9 @@ textarea.input{
         min-height: 100vh;
     }
 
-    /* .home-bot-shape{
+    .home-bot-shape{
         bottom: 10vh;
-    } */
+    }
 
     .servicios-container{
         grid-template-columns: minmax(275px, 500px);
