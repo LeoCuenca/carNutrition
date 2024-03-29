@@ -1329,6 +1329,29 @@ textarea.input{
 /* ---------------------- Breakpoints ---------------------------- */
 
 /* ---------------------- Pantallas Grandes ---------------------- */
+@media screen and (max-width: 1920px){
+    section{
+        padding: 20px 20%;
+    }
+
+    .about{
+        padding: 20px 17%;
+    }
+
+    .servicios{
+        padding: 20px 15%;
+    }
+
+    .recetas{
+        padding: 20px 15%;
+    }
+
+    .contacto{
+        min-height: 100vh;
+        padding: 20px 20%;
+    }
+
+}
 
 @media screen and (max-width: 1440px){
     section{
@@ -1451,7 +1474,8 @@ textarea.input{
     }
 
     .contacto{
-        min-height: 100vh;
+        min-height: 140vh;
+        justify-content: flex-end;
     }
 
     .form{
@@ -1562,19 +1586,15 @@ textarea.input{
         top: 0;
     }
 
-    .footer-box:nth-child(3) p,
-    .info p{
-        text-decoration: none;
-        background: red;
-    }
-
 }
 
 /* ----------------- Pantallas Moviles Grandes ------------------- */
 
 @media screen and (max-width: 425px){
 
-    section{
+    .about,
+    .recetas,
+    .contacto{
         padding: 0 7%;
     }
 
@@ -1658,7 +1678,7 @@ textarea.input{
     }
 
     .contacto{
-        min-height: 100vh;
+        padding: 20px 10%;
     }
 
 }
@@ -1671,6 +1691,14 @@ textarea.input{
         height: 11em;
     }
 
+    .home{
+        min-height: 100vh;
+    }
+
+    /* .home-bot-shape{
+        bottom: 10vh;
+    } */
+
     .servicios-container{
         grid-template-columns: minmax(275px, 500px);
     }
@@ -1680,7 +1708,11 @@ textarea.input{
     }
 
     .item-turno{
-        font-size: 1rem;
+        font-size: .838rem;
+    }
+
+    .servicios{
+        padding: 20px 8%;
     }
 
 }
@@ -1691,6 +1723,11 @@ textarea.input{
 
     .home-container{
         height: 14em;
+    }
+
+    .contacto{
+        min-height: 150vh;
+        padding: 20px 3%;
     }
 
 }
